@@ -47,19 +47,17 @@ public class Main {
 		frame.getContentPane().setLayout(null);
 		
 		Numerator = new JTextField();
-		Numerator.setText("Numerator:");
 		Numerator.setBounds(10, 11, 86, 20);
 		frame.getContentPane().add(Numerator);
 		Numerator.setColumns(10);
 		
 		Denominator = new JTextField();
-		Denominator.setText("Denominator:");
 		Denominator.setBounds(10, 42, 86, 20);
 		frame.getContentPane().add(Denominator);
 		Denominator.setColumns(10);
 		
 		JLabel Label = new JLabel("Result:");
-		Label.setBounds(234, 30, 46, 14);
+		Label.setBounds(216, 12, 208, 50);
 		frame.getContentPane().add(Label);
 		
 		JButton btnNewButton = new JButton("Calculate");

@@ -7,6 +7,11 @@ public class SimpleMath {
 		}
 		double result = numerator/denominator;
 		return result;
+		
+	}
+	double multiply(double number1, double number2) {
+		double result = number1*number2;
+		return result;
 	}
 
 }
